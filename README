@@ -1,0 +1,11 @@
+Author: Sayan Ghosh, PNNL
+Email: sg0@pnnl.gov
+
+Compile:
+gcc -O3 -std=gnu99 -DDEBUG=1 -fopenmp -o bp bin_packing.c -lm
+
+Example run:
+./bp 1000 20 0.2 0.7
+
+Paper: 
+https://ieeexplore.ieee.org/abstract/document/7839697
